@@ -1,0 +1,20 @@
+.pink-gradient {
+  background: none;
+  border: none;
+  color: var(--pink);
+  font-size: 1.5rem;
+  font-weight: 800;
+  background-image: linear-gradient(to right, var(--pink), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.pink-gradient:hover {
+  opacity: 0.7;
+}
+
+.pink-gradient:active {
+  opacity: 0.5;
+}

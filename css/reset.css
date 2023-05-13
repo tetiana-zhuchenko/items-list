@@ -163,4 +163,8 @@ hr {
 input,
 select {
   vertical-align: middle;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
 }

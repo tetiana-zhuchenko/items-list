@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/add-items.css" />
+    <link rel="stylesheet" href="./css/items-list.css" />
+
+    <link rel="stylesheet" href="./css/pink-gradient.css" />
     <title>Items List</title>
   </head>
   <body>
@@ -17,8 +23,8 @@
     </header>
 
     <main>
-      <!-- add an item -->
       <div class="items-container">
+        <!-- add an item -->
         <div class="add-items">
           <h2>Add items</h2>
           <form class="input-item">
@@ -27,16 +33,28 @@
               class="new-item-input"
               placeholder="What is the item?"
             />
-            <input type="submit" value="Add Item" class="new-item-submit" />
+            <input
+              type="submit"
+              value="Add Item"
+              class="new-item-submit pink-gradient"
+            />
           </form>
         </div>
-
+        <!-- items list -->
         <div class="items-list">
           <h2>Items</h2>
           <ul>
             <li class="item">
-              <p class="item">first item</p>
-              <button class="close-btn">close</button>
+              <p class="item-content">First some interesting item</p>
+              <button class="close-btn pink-gradient">Close</button>
+            </li>
+            <li class="item">
+              <p class="item-content">First some interesting item</p>
+              <button class="close-btn pink-gradient">Close</button>
+            </li>
+            <li class="item">
+              <p class="item-content">First some interesting item</p>
+              <button class="close-btn pink-gradient">Close</button>
             </li>
           </ul>
         </div>

@@ -1,0 +1,24 @@
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --gray: #6b7280;
+  --light: #eee;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+
+  --main-font: 'Fira sans', sans-serif;
+}
+html,
+body {
+  font-family: var(--main-font);
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  background: var(--dark);
+  color: var(--light);
+}

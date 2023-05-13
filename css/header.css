@@ -1,0 +1,26 @@
+header {
+  background: none;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.tille {
+  font-weight: 100;
+  font-size: 5rem;
+  color: var(--gray);
+}
+.item-search {
+  background-color: var(--darker);
+  padding: 1.1rem;
+  border-radius: 1rem;
+  width: 30rem;
+}
+
+.item-search::placeholder {
+  color: var(--gray);
+  font-size: 1.5rem;
+  font-weight: 300;
+}

@@ -27,10 +27,11 @@
         <!-- add an item -->
         <div class="add-items">
           <h2>Add items</h2>
-          <form class="input-items-form">
+          <form class="input-items-form" data-new-item-form>
             <input
               type="text"
               class="new-item-input"
+              data-new-item-input
               placeholder="What is the item?"
             />
             <input
@@ -43,15 +44,15 @@
         <!-- items list -->
         <div class="items-list">
           <h2>Items:</h2>
-          <ul>
-            <li class="item">
+          <ul data-items>
+            <!-- <li class="item">
               <p class="item-content">First item hard-coded</p>
               <button class="delete-btn pink-gradient">Delete</button>
             </li>
             <li class="item">
               <p class="item-content">Second item hard-coded</p>
               <button class="delete-btn pink-gradient">Delete</button>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
